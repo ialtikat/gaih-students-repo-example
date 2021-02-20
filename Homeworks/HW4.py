@@ -2,7 +2,7 @@ import random
 
 class HangmanGame:
     def __init__(self):
-        self.bayrak = True
+        self.giris = True
         word_list= ["Samsun", "ATATÜRK", "Python", "Cyber", "Yazılım"]
         self.word_list=[item.lower() for item in word_list]
         self.kesi=[]
@@ -85,11 +85,11 @@ class HangmanGame:
             return HangmanGame.tekrar()
     
     def statu(self):
-        self.bayrak= HangmanGame.tekrar()
-        return self.bayrak
+        self.giris= HangmanGame.tekrar()
+        return self.giris
 
 hangman= HangmanGame()
-while hangman.bayrak == True:
+while hangman.giris == True:
     hangman.random_word()
     hangman.bul()
     hangman.sekil()

@@ -22,5 +22,5 @@ for i in range(2,1000):
 
 
 """
- 0-500 Arasındaki asal sayıları prime_first fonksiyonu listeliyor. 500-1000 Arasındaki asal sayıları ise pirem_second fonksiyonu listeliyor.
+ 0-500 Arasındaki asal sayıları prime_first fonksiyonu listeliyor. 500-1000 Arasındaki asal sayıları ise prime_second fonksiyonu listeliyor.
 """
